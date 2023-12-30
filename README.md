@@ -7,7 +7,7 @@ inside it there are 3 Packages:
 DataBase Package: it has the DataBase loader class and all the .properties files that store all the data. (Login Database,Order History database,product database, promotion code database, shopping cart database)
 I will later explain why I chose a .properties file as storage.
 Entities Package: it contains all the classes of the entities I used in the project.(User,Product, Shopping Cart ect...)
-Controllers Package: it has the general classes that deal with a certain functionality and the menus that the controllers that are common for both customer and admin.
+Controllers Package: it has the general classes that deal with a certain functionality and the menus that are common for both customer and admin.
 Inside it there are two packages that contain specific controllers for Admin and Customer.
 
 ## **Why the .properties files?**
@@ -76,7 +76,7 @@ This interface is implemented by the two payment options:
 Payment by PayPal: the user types in email and username and pays
 Payment by credit card: the user types in the credit card info and pays
 
-Optional features:
+## Optional features:
 
 First feature: Promotion code: This is handled by the PromotionCodeController class.
 After selecting the item and ordering it the user can choose to add a promotion code.
